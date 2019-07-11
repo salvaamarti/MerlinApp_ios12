@@ -55,13 +55,29 @@
 			isa = PBXGroup;
 			children = (
 				E0E84B6622D3C2A5006DB55E /* AppDelegate.swift */,
-				E0E84B6822D3C2A5006DB55E /* ViewController.swift */,
-				E0E84B6A22D3C2A5006DB55E /* Main.storyboard */,
+				E0E84B7A22D3C30E006DB55E /* Storyboard */,
+				E0E84B7822D3C2DD006DB55E /* Controller */,
 				E0E84B6D22D3C2A7006DB55E /* Assets.xcassets */,
-				E0E84B6F22D3C2A7006DB55E /* LaunchScreen.storyboard */,
 				E0E84B7222D3C2A7006DB55E /* Info.plist */,
 			);
 			path = Merlin;
+			sourceTree = "<group>";
+		};
+		E0E84B7822D3C2DD006DB55E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0E84B6822D3C2A5006DB55E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0E84B7A22D3C30E006DB55E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E0E84B6A22D3C2A5006DB55E /* Main.storyboard */,
+				E0E84B6F22D3C2A7006DB55E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42L8RYWNDD;
 				INFOPLIST_FILE = Merlin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42L8RYWNDD;
 				INFOPLIST_FILE = Merlin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
